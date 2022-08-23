@@ -11,8 +11,8 @@ console.log(age);
 const price = kmPercorso * 0.21;
 console.log(price)
 tag.innerHTML = price.toFixed(2) + " &#8364;";
-const sconto20 = price * 20 / 100;
-const sconto40 = price * 40 / 100;
+const sconto20 = price - (price * 20 / 100);
+const sconto40 = price - (price * 40 / 100);
 
 if (age < 18) {
     bonus.innerHTML = "Sconto del 20% ";
