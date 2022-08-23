@@ -5,7 +5,7 @@ const bonus = document.getElementById("bonus");
 const priceBonus = document.getElementById("pricebonus")
 const kmPercorso = parseInt(prompt("Quanti chilometri desidera percorrere?"));
 console.log(kmPercorso);
-const age = parseInt(prompt("Inserisca il suo anno di nascita per ricevere uno sconto"));
+const age = parseInt(prompt("Inserisci la tua eta' "));
 console.log(age);
 
 const price = kmPercorso * 0.21;
